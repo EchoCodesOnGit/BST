@@ -1,3 +1,13 @@
+/**
+ * @headerfile Class.h
+ * @brief the implementations of a BST using dynamically allocated nodes
+ *
+ * This header file was written to handle the Node datatype that the main
+ * driver program uses to showcase a BST.
+ *
+ * @authors Ethan Smith, Emily Monroe
+ * @date 10/20/2024
+ */
 #include <iostream>
 using namespace std;
 
