@@ -33,13 +33,10 @@ int main()
      */
     Node<int>* rootNode = new Node<int>();
     // create a BST
-    rootNode = rootNode->insertNode(rootNode, 50);
-    rootNode = rootNode->insertNode(rootNode, 30);
-    rootNode = rootNode->insertNode(rootNode, 20);
-    rootNode = rootNode->insertNode(rootNode, 40);
-    rootNode = rootNode->insertNode(rootNode, 70);
-    rootNode = rootNode->insertNode(rootNode, 60);
-    rootNode = rootNode->insertNode(rootNode, 80);
+    //making a large datasets
+    for(int i = 0; i <= 30000; ++i){
+        rootNode = rootNode->insertNode(rootNode, i);
+    }
 
     // Print the inorder traversal of a BST
     cout << "Inorder traversal of the given Binary Search "
